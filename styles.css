@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Assistant:wght@500&family=Oswald&family=Satisfy&display=swap');
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #C80815;
+    font-family: Arial, sans-serif;
+}
+
+.header-logo {
+    font-family: 'ABeeZee';
+    size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    list-style-type: none;  
+    font-size: 18px;
+    display:flex;
+    gap: 20px;
+   
+}
+
+a {
+    text-decoration: none;
+    color: #F8F4FF;
+}
+
+.first {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+.intro {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.main-title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #FFD700;
+    margin: 0;
+    padding: 0;
+
+}
+
+.subtext{
+    font-size: 18px;
+    color: #F8F4FF;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.sign-up {
+    margin-top: 12px;
+    width: 125px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+
+.image-holder {
+    
+    height: 230px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.image-holder > img {
+    max-width: 100%;
+    height: 175%;
+}
+
+
+/* Second */
+.second {
+    background-color: white;
+    height: 500px;
+    
+    
+}
+
+.second-header {
+    padding: 40px;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 8px;
+}
+
+.rounded-corners {
+    border-radius: 10px;
+    border: 4px solid #C80815;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.rounded-corners > img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.text {
+    color: #545d6b; 
+    font-size: 22px;
+}
+
+/* Third */
+
+.third {
+    background-color: #e5e7eb;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.third-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+
+.third-text {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #333c49;
+    font-style: italic;  
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+/* Fourth */
+
+.fourth {
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-container {
+    background-color: #C80815;
+    width: 1000px;
+    height: 150px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fourth-call > p,
+.fourth-call > h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.fourth-call > h3 {
+    color: white;
+}
+
+.fourth-call > p {
+    color: #acb0b7;
+}
+
+.fourth-sign-up > button {
+    margin-top: 12px;
+    width: 125px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #ffcc33;
+    border: 1px solid black;
+    color: black;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: white;
+}
